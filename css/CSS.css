@@ -1,0 +1,64 @@
+#form2{
+    background-image: url(../images/bookingg.png);
+    margin:0 auto;
+}
+
+.val_error{
+    color: #FF1F1F;
+}
+
+
+.btnRegister{
+    height: 45px;
+    width: 300px;
+    padding: 7px;
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+}
+
+.form{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background-color: rgba(56, 83, 100,0.7) ;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.form img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+
+.textInput[type="date"], .textInput[type = "number"]{
+    height: 45px;
+    width: 300px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding-left: 40px;    
+}
+
+#radiobutton{
+    margin-left: 6%;
+    color: aqua;
+}
+
+
+#radiobutton2{
+    margin-left: 2%;
+}
+
+
+#radiobutton3{
+    margin-left: 1%;
+}
+
+.form #radio{
+    margin-right: 20px;
+    color: white;
+}

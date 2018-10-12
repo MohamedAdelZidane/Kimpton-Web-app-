@@ -1,0 +1,54 @@
+<html>
+
+    <head>
+        <title>Booking</title>
+        <link rel="icon" href="images/epicLogo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="css/CSS.css">
+    </head>
+
+    <body id="form2">
+
+        <div class="form">
+            
+            <img src="images/bookNow.png">
+        
+            <form method="POST" action="php/booking.php" >
+            
+                <div>
+                    <input type="number"  name="Number_of_Adult" class="textinput" placeholder="Number of Adult" required>
+                    <div id="number_error" class="val_error"></div>
+                </div>
+            
+                <div>
+                    <input  type="number"  name="Number_of_Child" class="textinput" placeholder="Number of Child" required>
+                    <div id="number_error" class="val_error"></div>
+                </div>
+                
+                <div>
+                    <input  type="date" name="Duration" class="textinput" placeholder="Duration" required>
+                
+                </div>
+                
+                <div id="radio">   
+                    <input type="radio" name="view" value="gardenView" checked><b>GARDEN VIEW</b> <br><br>
+                    <input type="radio" name="view" value="poolView"> <b>POOL VIEW</b>
+                    <input type="radio" name="view" value="seaView" > <b>SEA VIEW</b>
+                </div><br>
+                 
+                <div>
+                    <input   type="number"  name="Number_of_Rooms" class="textinput" placeholder="Number of Rooms" required >
+                    
+                </div>
+                
+                <div>
+                    <input  type="submit" value="BOOK" name="register" class="btnRegister">
+                </div>
+                
+            </form>  
+        
+        </div>
+        
+        <br>
+        
+    </body>
+</html>
